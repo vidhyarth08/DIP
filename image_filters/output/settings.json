@@ -1,0 +1,30 @@
+{
+  "input": "input.png",
+  "shape": [
+    400,
+    600
+  ],
+  "noise": "none",
+  "seed": 42,
+  "ksize": 3,
+  "sigma": 1.5,
+  "A": 1.5,
+  "filters": {
+    "smoothing": [
+      "mean",
+      "weighted_average",
+      "gaussian",
+      "median"
+    ],
+    "sharpening": [
+      "laplacian_4_edges",
+      "laplacian_4_sharpened",
+      "laplacian_8_edges",
+      "laplacian_8_sharpened",
+      "sobel_edges",
+      "prewitt_edges",
+      "high_boost",
+      "unsharp_mask"
+    ]
+  }
+}
